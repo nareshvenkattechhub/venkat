@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
       <div>
 
-        <p> naresh  venkast suddula from the naresh venkats </p>
+        <p> welcome to github pages</p>
       </div>
       </header>
     </div>
