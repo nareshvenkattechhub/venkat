@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/venkat/static/css/main.79d19d76.css",
+    "main.js": "/venkat/static/js/main.353fc6e2.js",
+    "static/js/453.aab76bc4.chunk.js": "/venkat/static/js/453.aab76bc4.chunk.js",
+    "index.html": "/venkat/index.html",
+    "main.79d19d76.css.map": "/venkat/static/css/main.79d19d76.css.map",
+    "main.353fc6e2.js.map": "/venkat/static/js/main.353fc6e2.js.map",
+    "453.aab76bc4.chunk.js.map": "/venkat/static/js/453.aab76bc4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79d19d76.css",
+    "static/js/main.353fc6e2.js"
+  ]
+}
