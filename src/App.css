@@ -1,35 +1,87 @@
-.game {
+.App {
   text-align: center;
 }
 
-.board {
-  display: inline-block;
-  margin: 20px;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.board-row:after {
-  clear: both;
-  content: "";
-  display: table;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-.square {
-  width: 60px;
-  height: 60px;
-  background: #fff;
-  border: 1px solid #999;
-  float: left;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 60px;
-  text-align: center;
-  cursor: pointer;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-.square:hover {
-  background: #ddd;
+.App-link {
+  color: #61dafb;
 }
 
-.status {
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+body {
+  padding-top: 0px;
+  background-color: #282c34;
+
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.project-card, .contributor-card {
+  margin-bottom: 20px;
+}
+
+.highlight {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 15px;
   margin-bottom: 10px;
+}
+
+.btn-highlight {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.btn-highlight:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+
+
+.custom-carousel {
+  padding-top: 50px;
+  height: 600px; /* Set your desired height */
+  overflow: hidden; /* Hide overflow to avoid displaying parts of the image outside the carousel */
+}
+
+.custom-carousel img {
+  height: 100%;
+  object-fit: cover; /* Ensures images cover the container without stretching */
 }
