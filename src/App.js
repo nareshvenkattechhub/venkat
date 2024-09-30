@@ -134,7 +134,7 @@ function App() {
           <h2>Accessing the Interface:</h2>
           <ul>
             <li>
-              <h3>When the page loads, users will see buttons for "Live Video" and "Upload Image".</h3>
+              <h3>When the page loads, users will see buttons for "Live Video" and "Upload Image"..</h3>
             </li>
             <ul>
               <li><span style={{ fontWeight: 'bold' }}>Live Video:</span> Click "Live Video" to detect objects via camera. Access granted triggers video stream.</li>

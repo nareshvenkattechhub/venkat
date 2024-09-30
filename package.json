@@ -1,7 +1,7 @@
 {
   "name": "coal_star",
   "version": "0.1.0",
-  "homepage": "https://github.com/nareshvenkats/stars.git",
+  "homepage": "https://nareshvenkattechhub.github.io/venkat",
   "private": true,
   "dependencies": {
     "@supabase/auth-ui-react": "^0.4.7",
