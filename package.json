@@ -1,7 +1,7 @@
 {
   "name": "coal_star",
   "version": "0.1.0",
-  "homepage": "https://github.com/nareshvenkats/ngo_model.git",
+  "homepage": "https://github.com/nareshvenkats/ngo.git",
   "private": true,
   "dependencies": {
     "@supabase/auth-ui-react": "^0.4.7",
